@@ -56,7 +56,7 @@ large_data_set = 100000 # If the number of observations is larger than this
                         # estimation algorithm will not use second derivatives.
 max_number_parameters_to_report = 15 # int: maximum number of parameters to
                                      # report during the estimation.
-save_iterations = "True" # bool: If True, the current iterate is saved after each
+save_iterations = "False" # bool: If True, the current iterate is saved after each
                          # iteration, in a file named ``__[modelName].iter``,
                          # where ``[modelName]`` is the name given to the model.
                          # If such a file exists, the starting values for the
